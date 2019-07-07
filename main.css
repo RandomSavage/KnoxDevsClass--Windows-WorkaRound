@@ -1,0 +1,75 @@
+
+
+header{
+  font-family: 'Roboto Mono', monospace;
+  background: rgba(247,127,0,.8);
+  color: white;
+  overflow: auto;
+  padding: 15px 20px;
+  }
+
+  .top{
+    display: inline;
+  }
+.logo{
+    float: left;
+
+  }
+
+  .logo,
+   a{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+  }
+  .nav-bar{
+    float: right;
+  }
+  nav  a{
+      color: white;
+      text-decoration: none;
+      padding: 0 20px;
+      text-transform: capitalize;
+      font-weight: 300;
+      font-size: 1.8rem;
+    }
+    a:hover{
+      color: #1b1b1b;
+    }
+
+#commands{
+  background: #1b1b1b;
+  width: 100%;
+  min-height: 700px;
+  display: inline-block;
+  float: left;
+}
+
+.steps{
+  font-size: 1.2rem;
+  color: white;
+
+  width: 100%;
+  padding: 30px 40px;
+
+}
+
+input{
+  text-align: center;
+  display: inline-block;
+  float: left;
+  height: 20px;
+  padding: 0 30px;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+span{
+  font-size: 1.1rem;
+  font-family:'Roboto Mono', monospace;
+}
+
+span:hover{
+  color: rgba(247,127,0,.8);
+}
